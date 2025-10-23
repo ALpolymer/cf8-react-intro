@@ -3,6 +3,7 @@ import FunctionalComponent from "./components/FunctionalComponent.tsx";
 import ArrowFunctionalComponentWithProps from "./components/ArrowFunctionalComponentWithProps.tsx";
 import ArrowFunctionalComponent from "./components/ArrowFunctionalComponent.tsx";
 import ArrowFunctionalComponentWithTwoProps from "./components/ArrowFunctionalComponentWithTwoProps.tsx";
+import Card from "./components/Card.tsx";
 
 function App() {
 
@@ -17,6 +18,13 @@ function App() {
                 title={"I am an arrow functional components with  2 props"}
                 description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, vero?"}
             />
+            
+            <Card title={"I am card with children and props"}>
+                <ArrowFunctionalComponentWithTwoProps
+                    title={"I am an arrow functional components with  2 props"}
+                    description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, vero?"}
+                />
+            </Card>
         </>
 
     )

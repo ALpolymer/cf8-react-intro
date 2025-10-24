@@ -7,22 +7,6 @@ function App() {
 
     return (
         <>
-            {/*<ClassComponent/>*/}
-            {/*<FunctionalComponent/>*/}
-            {/*<ArrowFunctionalComponent/>*/}
-            {/*<ArrowFunctionalComponentWithProps title={"I am an arrow functional components with props"}/>*/}
-            {/*<ArrowFunctionalComponentWithProps title={"I am 2nd arrow functional components with props"}/>*/}
-            {/*<ArrowFunctionalComponentWithTwoProps*/}
-            {/*    title={"I am an arrow functional components with  2 props"}*/}
-            {/*    description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, vero?"}*/}
-            {/*/>*/}
-            
-            {/*<Card title={"I am card with children and props"}>*/}
-            {/*    <ArrowFunctionalComponentWithTwoProps*/}
-            {/*        title={"I am an arrow functional components with  2 props"}*/}
-            {/*        description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, vero?"}*/}
-            {/*    />*/}
-            {/*</Card>*/}
             <Layout>
                 <Header />
                 <Main/>
